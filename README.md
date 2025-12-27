@@ -1,4 +1,8 @@
-# Sistema ERP Completo em Python
+# ERP
+
+Repositório oficial: [https://github.com/gsmcelulares2026-star/erp](https://github.com/gsmcelulares2026-star/erp)
+
+Sistema de planejamento de recursos empresariais (ERP) completo desenvolvido em Python com FastAPI, SQLAlchemy e interface web moderna.
 
 Sistema de planejamento de recursos empresariais (ERP) completo desenvolvido em Python com FastAPI, SQLAlchemy e interface web moderna.
 
@@ -38,12 +42,14 @@ Sistema de planejamento de recursos empresariais (ERP) completo desenvolvido em 
 - Python 3.8 ou superior
 - pip (gerenciador de pacotes Python)
 
+
 ### Passo a Passo
 
-1. **Clone ou navegue até o diretório do projeto**
+1. **Clone o repositório**
 
 ```bash
-cd c:\Users\Jacir\Downloads\erp
+git clone https://github.com/gsmcelulares2026-star/erp.git
+cd erp
 ```
 
 2. **Crie um ambiente virtual (recomendado)**
@@ -253,6 +259,7 @@ pip install gunicorn
 gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
 ```
 
+
 ## 📝 Licença
 
 Este projeto é de código aberto e está disponível para uso livre.
@@ -263,4 +270,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 
 ## 📧 Suporte
 
-Para suporte e dúvidas, entre em contato através do email: suporte@erp.com
+Para suporte e dúvidas, utilize o repositório no GitHub ou entre em contato através do email: suporte@erp.com
